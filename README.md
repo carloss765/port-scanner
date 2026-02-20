@@ -1,4 +1,4 @@
-# Port Scanner in Go
+# Port Scanner in Go🛜
 
 A fast and efficient concurrent port scanner built with Go.
 
