@@ -66,3 +66,8 @@ go run main.go -host 127.0.0.1 -start 20 -end 100
 3. **TCP Connection**: Each worker picks a port and tries to establish a TCP connection using `net.DialTimeout`.
 4. **Results**: If the connection is successful, the port is marked as open and sent to the `results` channel.
 5. **Efficiency**: By using workers, the scanner doesn't wait for one port to timeout before checking the next one.
+
+## License 📜
+This project is licensed under **CC BY-NC 4.0**.
+
+Personal and educational use is permitted, but **sales or commercial redistribution** is strictly prohibited without the author's consent.
