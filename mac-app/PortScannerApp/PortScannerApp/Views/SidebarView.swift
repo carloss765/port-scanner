@@ -146,6 +146,26 @@ struct SidebarView: View {
             statusBadge
                 .padding(.horizontal, 14)
                 .padding(.bottom, 14)
+
+            Spacer()
+
+            Divider()
+
+            // Created by footer
+            Link(destination: URL(string: "https://github.com/carloss765")!) {
+                HStack(spacing: 4) {
+                    Text("Created by")
+                        .foregroundStyle(.secondary)
+                    Text("CarlosM")
+                        .bold()
+                        .foregroundStyle(.blue)
+                }
+                .font(.caption2)
+                .padding(.vertical, 8)
+                .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.plain)
+            .padding(.bottom, 4)
         }
         .frame(minWidth: 230, idealWidth: 252)
     }
